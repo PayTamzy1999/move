@@ -1,0 +1,197 @@
+/* Your CSS styles here */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  background-color: #fdfdfd;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+}
+.logo img {
+  max-height: 80px;
+  padding-bottom: 30px;
+  transition: transform 30s ease-in-out;
+  
+}
+
+/* Apply the animation on hover */
+.logo img:hover {
+  transform: rotate(360deg);
+}
+
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  color: white; /* Text color */
+  padding: 10px 750px; /* Add some padding for better visibility */
+  z-index: 1; /* Make sure the navigation bar is on top */
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav li {
+  margin: 0 15px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  transition: color 0.3s ease-in-out;
+}
+nav a:hover {
+  color: #ffc107;
+}
+
+.section {
+  padding: 60px;
+  background-color: #f5f5f5;
+  border-bottom: 1px solid #ddd;
+}
+#churchname{
+  font-size: 20px;
+  position: absolute;
+  margin-top: 100px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: black;
+}
+#home{
+  background-color: #2f5e48d3;
+}
+#welcomeimg{
+  width: 300px;
+}
+#welcome{
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #a08227;
+}
+
+.flex-box{
+  max-width: 1200px;
+  margin: auto;
+  display: flex;
+   margin-top: 100px;
+  }
+  /* Your CSS styles here */
+
+/* Style for the event grid */
+.event-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+/* Style for each event item */
+.event-item {
+  flex-basis: calc(25% - 20px); /* Adjust to desired width, considering margin */
+  margin: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+.event-item img {
+  max-width: 100%;
+  height: auto;
+}
+
+.event-item p {
+  margin-top: 10px;
+  font-size: 14px;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+
+.event-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.event-item {
+  flex-basis: calc(25% - 20px);
+  margin: 10px;
+  padding: 10px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+}
+
+.event-item:hover {
+  transform: scale(1.05);
+}
+/* Your CSS styles here */
+.flexbox-container {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.flexbox-item {
+  flex-basis: calc(33.33% - 20px); /* Adjust width considering margin */
+  margin: 10px;
+  padding: 15px;
+  background-color: #2c3e50;
+  border: 1px solid #ddd;
+  text-align: center;
+  transition: transform 0.3s ease-in-out;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.flexbox-item:hover {
+  transform: scale(1.05);
+}
+#bonus{
+  text-align: center;
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ font-size: 20px;
+}
+/* Your CSS styles here */
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+.contact-form input,
+.contact-form textarea,
+.contact-form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.contact-form button {
+  background-color: #35495e;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.contact-form button:hover {
+  background-color: #2c3e50;
+}
+
+
+
+
+/* Rest of your styles */
